@@ -4,163 +4,331 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Font Awesom Library-->
     <link rel="stylesheet" href="css/all.min.css"/>
     <!-- Style css -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">   
+    
+    <title>Fitness</title>
 </head>
 <body>
-    <!-- testimonials-->
-        <div class="testimonials text-center  mb-5">
-            
-                <h2>Testimonials</h2>
-                <div class="bg-dark text-white pt-5">
-                    <div class="d-flex justify-content-center align-items-center mb-3">
-                        <i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
-                        <div class="img-container mx-5"><img src="imgs/Layer16.png" alt="" class="border border-2 border-white rounded-circle mw-100"></div>
-                        <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
-                    </div>
-                    <div class="text-content">
-                        <h3>Patrick</h3>
-                        <div class="d-flex">
-                            <i class="fa fa-quote-left align-self-start" aria-hidden="true"></i>
-                            <p class="mx-md-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                            <i class="fa fa-quote-right align-self-end" aria-hidden="true"></i>
+    
+    <!-- Header -->
+
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand me-0" href="#">
+                          <img src="imgs/logo.png" alt="logo">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About Us/Our Trainers</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Testimonials</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">How It Work</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Blog Health Coatching</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                          </li>
+                        </ul>
+                        <div class="d-flex social-container">
+                            <i class="fab fa-twitter me-3"></i>
+                            <i class="fab fa-instagram"></i>
                         </div>
-                        <button type="button" class="btn btn-outline-secondary rounded-pill px-4 py-2">LEARN MORE</button>
+                      </div>
                     </div>
-                    <div class="logo"><img src="imgs/Layer28-modified.png" alt=""></div>
-                </div>
-            
+                  </nav>
+            </div>
+        </header>
+
+    <!-- Header -->
+
+    <!-- landing -->
+        <div class="landing">
+          <div class="container">
+            <div class="text-container text-white fs-1">
+              <p class="mb-0">LOREM IPSUM</p>
+              <p class="fw-bold">EVERYTHING IS HEALTHY</p>
+            </div>
+          </div>
         </div>
+    <!-- landing -->
+
+    <!-- What is section -->
+        
+        <div class="what-is">
+            <div class="container">
+                <div class="row px-5">
+                    <div class="col-12 col-md-6 imgs-container">
+                        <div class="row position-relative">
+                            <div class="img-container col-7 pe-1">
+                                <img class="mw-100" src="imgs/img2.png" alt="img2">
+                            </div>
+                            <div class="img-container col-5 ps-1">
+                                <img class="mw-100" src="imgs/img4.png" alt="img4">
+                            </div>
+                            <div class="flow-img-container col-8 p-0">
+                                <img class="mw-100" src="imgs/img3.png" alt="img3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 align-self-center ps-md-5 mt-3">
+                        <h2 class="title fw-bold mb-3">What is Lorem Ipsum set</h2>
+                        <p class="text text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- What is section -->
+
+    <!-- Wheight loss section -->
+
+    <div class="weight-loss pt-4">
+      <div class="container">
+        <div class="title text-center mb-5">
+          <h2 class="fw-bold">Weight Loss Resources</h2>
+          <div class="span-container d-flex justify-content-center">
+             <div></div>
+             <div></div>
+             <div></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="card-item col-12 col-md-4 mb-3 mb-md-0">
+            <div style="height: 237px;"><img class="w-100 h-100" src="imgs/imgCard1.png" alt="card2"></div>
+            <div class="card-container">
+              <div class="text-center mb-3 pt-3 fw-bold">Lorem Ipsum  copy</div>
+              <div class="text text-muted text-center">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,. 
+              </div>
+            </div>
+          </div>
+          <div class="card-item col-12 col-md-4 mb-3 mb-md-0">
+            <div><img class="w-100" src="imgs/imgCard2.png" alt="card2"></div>
+            <div class="card-container">
+              <div class="text-center mb-3 pt-3 fw-bold">Lorem Ipsum  copy</div>
+              <div class="text text-muted text-center">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,. 
+              </div>
+            </div>
+          </div>
+          <div class="card-item col-12 col-md-4 ">
+            <div><img class="w-100" src="imgs/imgCard3.png" alt="card3"></div>
+            <div class="card-container">
+              <div class="text-center mb-3 pt-3 fw-bold">Lorem Ipsum  copy</div>
+              <div class="text text-muted text-center">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,. 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wheight loss section -->
+
+    <!-- member section -->
+
+    <div class="member">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <div class="title d-flex align-items-center">
+              <h2 class="me-2"><span class="fw-bold">MEMBER</span> SUCCESS STORIES</h2>
+              <div class="span-container d-flex justify-content-center">
+                <div></div>
+                <div></div>
+                <div></div>
+             </div>
+            </div>
+            <p class="fw-bold mb-2 mt-4 fs-5">Karen O'Brien</p>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+              </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="img-container">
+              <img class="mw-100" src="imgs/member-img.png" alt="mem-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- member section -->
 
     <!-- testimonials-->
+    <div class="testimonials text-center  mb-5">
+      <div class="title d-flex align-items-center justify-content-center my-3">
+        <h2 class="me-2">Testimonials</h2>
+        <div class="span-container d-flex justify-content-center">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      
+      <div class="bg-dark text-white pt-5">
+          <div class="d-flex justify-content-center align-items-center mb-3">
+              <i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
+              <div class="img-container mx-5"><img src="imgs/Layer16.png" alt="" class="border border-2 border-white rounded-circle mw-100"></div>
+              <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+          </div>
+          <div class="text-content">
+              <h3>Patrick</h3>
+              <div class="d-flex">
+                  <i class="fa fa-quote-left align-self-start" aria-hidden="true"></i>
+                  <p class="mx-md-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                  <i class="fa fa-quote-right align-self-end" aria-hidden="true"></i>
+              </div>
+              <button type="button" class="btn btn-outline-secondary rounded-pill px-4 py-2">LEARN MORE</button>
+          </div>
+          <div class="logo"><img src="imgs/Layer28-modified.png" alt=""></div>
+      </div>
+  
+</div>
 
-    <!-- Video&Touch with us-->
-    <div class="Touch mb-5 pt-5">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="video col-12 col-lg-6 ">
-                    <h4 class="mb-3 mb-lg-5">OUR LATEST VIDEO</h4>
-                    <div><img src="imgs/Layer23.png" alt="" class="mw-100"></div>
-                </div>
-                <div class="submit col-md-12 col-lg-6 ps-lg-5  mt-3 mt-lg-0">
-                    <h4 class="mb-3">GET IN TOUCH WITH US</h4>
-                    <div class="col-sm-6">
-                        <label for="firstName" class="form-label">Your Name (required)</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
-                    </div>
-                    <div class="col-sm-6">
-                        <label for="firstName" class="form-label">Your Email (required)</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
-                    </div>
-                    <div class="col-sm-6">
-                        <label for="firstName" class="form-label">Phone Number</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
-                    </div>
-                    <div class="col-sm-6 mb-3" style="height: 120px;">
-                        <label for="">Your Message</label>
-                        <textarea type="text" class="form-control h-100" id="address" placeholder="" required=""></textarea>
-                    </div>
-                    <div class="col-sm-6 text-center text-md-end"><button type="button" class="btn btn-lg btn-primary rounded-pill px-4 py-1 mt-4" disabled>SUBMIT</button></div>
-                </div>
+<!-- testimonials-->
+
+<!-- Video&Touch with us-->
+<div class="Touch mb-5 pt-5">
+  <div class="container">
+    <div class="row justify-content-between">
+        <div class="video col-12 col-lg-6 ">
+            <h4 class="mb-3 mb-lg-5">OUR LATEST VIDEO</h4>
+            <div><img src="imgs/Layer23.png" alt="" class="mw-100"></div>
+        </div>
+        <div class="submit col-md-12 col-lg-6 ps-lg-5  mt-3 mt-lg-0">
+            <h4 class="mb-3">GET IN TOUCH WITH US</h4>
+            <div class="col-sm-6">
+                <label for="firstName" class="form-label">Your Name (required)</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
             </div>
+            <div class="col-sm-6">
+                <label for="firstName" class="form-label">Your Email (required)</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+            </div>
+            <div class="col-sm-6">
+                <label for="firstName" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+            </div>
+            <div class="col-sm-6 mb-3" style="height: 120px;">
+                <label for="">Your Message</label>
+                <textarea type="text" class="form-control h-100" id="address" placeholder="" required=""></textarea>
+            </div>
+            <div class="col-sm-6 text-center text-md-end"><button type="button" class="btn btn-lg btn-primary rounded-pill px-4 py-1 mt-4" disabled>SUBMIT</button></div>
         </div>
     </div>
-    <!-- Video&Touch with us-->
+  </div>
+</div>
+<!-- Video&Touch with us-->
 
-    <!-- Gyms -->
-    <div class="Gym pt-5 pb-4">
-        <div class="container">
-            <div class="row text-md-center mb-4 justify-content-between">
-                <div class="col-12 col-md-3"><img class="mw-100" src="imgs/Layer25.png" alt=""></div>
-                <div class="col-12 col-md-3"><img class="mw-100"  src="imgs/Layer26.png" alt=""></div>
-                <div class="col-12 col-md-3"><img class="mw-100"  src="imgs/Layer27.png" alt=""></div>
-            </div>
-            <div class="d-flex justify-content-center mb-4">
-                <div><img src="imgs/Shape34.png" alt=""></div>
-                <div><img src="imgs/Shape34copy.png" alt=""></div>
-                <div><img src="imgs/Shape34copy2.png" alt=""></div>
-            </div>
-        </div>
+<!-- Gyms -->
+<div class="Gym pt-5 pb-4">
+  <div class="container">
+    <div class="row text-md-center mb-4 justify-content-between">
+        <div class="col-12 col-md-3"><img class="mw-100" src="imgs/Layer25.png" alt=""></div>
+        <div class="col-12 col-md-3"><img class="mw-100"  src="imgs/Layer26.png" alt=""></div>
+        <div class="col-12 col-md-3"><img class="mw-100"  src="imgs/Layer27.png" alt=""></div>
     </div>
-    <!-- Gyms -->
-
-    <!-- Health -->
-    <div class="health text-center p-5" style="background-color: #F1F1F1;">
-        <div class="container ">
-            <h2>YOUR HEALTH IS OUR PRIORITY</h2>
-            <P class="px-5 mt-3 mb-4">Our doors are opening again! Your health and wellbeing is our highest priority. As a result, we've made adjustments so we can all continue making Anytime Fitness Safe and Healthy place for you!</P>
-            <div class=" d-flex align-items-center justify-content-center mb-3">
-                <div class="img-container me-3"><img src="imgs/man.png" alt="" class="mw-100"></div>
-                <p>Promise From  Our Directors</p>
-            </div>
-            <p class="fw-bold mb-5">See when and how we woll reopen here...</p>
-            <button type="button" class="btn btn-lg btn-primary rounded-pill px-5 py-2 mt-4" disabled>CLICK HERE</button>
-        </div>
+    <div class="d-flex justify-content-center mb-4">
+        <div><img src="imgs/Shape34.png" alt=""></div>
+        <div><img src="imgs/Shape34copy.png" alt=""></div>
+        <div><img src="imgs/Shape34copy2.png" alt=""></div>
     </div>
-    <!--Health-->
+  </div>
+</div>
+<!-- Gyms -->
 
-    <!--Footer-->
-    <div class="footer text-white pt-5 ">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <p class="fw-bold">QUICK LINKS</p>
-                    <ul class="ps-0 mb-0">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About Us/Our Trainers</a></li>
-                        <li><a href="">Testimonials</a></li>
-                        <li><a href="">How It Works</a></li>
-                        <li><a href="">Blog Health Coaching</a></li>
-                        <li><a href="">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-4 mt-4 mt-md-0">
-                    <p class="fw-bold">CONTACT US</p>
-                    <div class="d-flex align-items-center mb-3">
-                        <i class="fa fa-map-marker " aria-hidden="true"></i>
-                        <p class="mb-0 ms-2">Lorem Ipusm dolor set amit #234 Dummy </p>
-                    </div>
-                    <div class="d-flex align-items-center mb-3">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <p class="mb-0 ms-2">123-123-1234 </p>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <p class="mb-0 ms-2">info@loremipsum.com </p>
-                    </div>
-                </div>
-                <div class="third col-12 col-md-4 mt-4 mt-md-0">
-                    <p class="fw-bold">SUBSCRIBE TO OUR NEWSLETTER</p>
-                    <P>Wanna stay in touch with the latest news and find outabout new products and offers? Subscribe!</P>
-                    <div class="d-flex mb-5">
-                        <input type="text" name="" placeholder="Enter address her" id="" class="p-2">
-                        <button type="button" class="btn btn-dark text-white-50">SUBSCRIBE</button>
-                    </div>
-                    <div class="d-flex">
-                        <i class="fab fa-twitter me-4"></i>
-                        <i class="fab fa-facebook-f me-4"></i>
-                        <i class="fab fa-google-plus-g me-4"></i>
-                        <i class="fab fa-linkedin-in me-4"></i>
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="p-3 text-center align-items-center mt-5" style="background-color: #454545;"><p class="text-white"><span style="color: #78838E;">Copyright © 2021loremipsumeset. All rights reserved.</span> Privacy Policy   /   Terms of Service</p></div>
-    </div>   
-    <!--Footer-->
+<!-- Health -->
+<div class="health text-center p-5" style="background-color: #F1F1F1;">
+  <div class="container ">
+    <h2 class="fw-bold text-secondary">YOUR HEALTH IS OUR PRIORITY</h2>
+    <P class="text-secondary px-5 mt-3 mb-4">Our doors are opening again! Your health and wellbeing is our highest priority. As a result, we've made adjustments so we can all continue making Anytime Fitness Safe and Healthy place for you!</P>
+    <div class=" d-flex align-items-center justify-content-center mb-3">
+        <div class="img-container me-3"><img src="imgs/man.png" alt="" class="mw-100"></div>
+        <p class="text-secondary">Promise From  Our Directors</p>
+    </div>
+    <p class="fw-bold mb-5 text-secondary">See when and how we woll reopen here...</p>
+    <button type="button" class="btn btn-lg btn-primary rounded-pill px-5 py-2 mt-4" disabled>CLICK HERE</button>
+  </div>
+</div>
+<!--Health-->
 
-
-
-
-
+<!--Footer-->
+<div class="footer text-white pt-5 ">
+<div class="container">
+  <div class="row">
+      <div class="col-12 col-md-4">
+          <p class="fw-bold">QUICK LINKS</p>
+          <ul class="ps-0 mb-0">
+              <li><a href="">Home</a></li>
+              <li><a href="">About Us/Our Trainers</a></li>
+              <li><a href="">Testimonials</a></li>
+              <li><a href="">How It Works</a></li>
+              <li><a href="">Blog Health Coaching</a></li>
+              <li><a href="">Contact Us</a></li>
+          </ul>
+      </div>
+      <div class="col-12 col-md-4 mt-4 mt-md-0">
+          <p class="fw-bold">CONTACT US</p>
+          <div class="d-flex align-items-center mb-3">
+              <i class="fa fa-map-marker " aria-hidden="true"></i>
+              <p class="mb-0 ms-2">Lorem Ipusm dolor set amit #234 Dummy </p>
+          </div>
+          <div class="d-flex align-items-center mb-3">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <p class="mb-0 ms-2">123-123-1234 </p>
+          </div>
+          <div class="d-flex align-items-center">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <p class="mb-0 ms-2">info@loremipsum.com </p>
+          </div>
+      </div>
+      <div class="third col-12 col-md-4 mt-4 mt-md-0">
+          <p class="fw-bold">SUBSCRIBE TO OUR NEWSLETTER</p>
+          <P>Wanna stay in touch with the latest news and find outabout new products and offers? Subscribe!</P>
+          <div class="d-flex mb-5">
+              <input type="text" name="" placeholder="Enter address her" id="" class="p-2">
+              <button type="button" class="btn btn-dark text-white-50">SUBSCRIBE</button>
+          </div>
+          <div class="d-flex">
+              <i class="fab fa-twitter me-4"></i>
+              <i class="fab fa-facebook-f me-4"></i>
+              <i class="fab fa-google-plus-g me-4"></i>
+              <i class="fab fa-linkedin-in me-4"></i>
+              <i class="fab fa-instagram"></i>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="p-3 text-center align-items-center mt-5" style="background-color: #454545;"><p class="text-white"><span style="color: #78838E;">Copyright © 2021loremipsumeset. All rights reserved.</span> Privacy Policy   /   Terms of Service</p></div>
+</div>   
+<!--Footer-->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
